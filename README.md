@@ -77,6 +77,7 @@ The project includes:
    semantic-accessible-dashboard-orpin.vercel.app
 
 ## GitHub Repository
+   https://github.com/shaik-asif69/semantic-accessible-dashboard
 
 ## Technologies
 
