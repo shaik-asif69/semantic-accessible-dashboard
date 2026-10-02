@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+.site-header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+
+.site-header h1 {
+    margin-top: 0;
+}
+
+.site-header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    text-decoration: underline;
+}
+
+.layout {
+    display: flex;
+    min-height: 600px;
+}
+
+.sidebar {
+    width: 220px;
+    padding: 25px;
+    background-color: #374151;
+    color: white;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    min-width: 200px;
+    flex: 1;
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e5e7eb;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #aaa;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:focus,
+a:focus,
+input:focus,
+select:focus {
+    outline: 3px solid orange;
+    outline-offset: 2px;
+}
+
+dialog {
+    padding: 25px;
+    border: 1px solid #555;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .site-header nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
